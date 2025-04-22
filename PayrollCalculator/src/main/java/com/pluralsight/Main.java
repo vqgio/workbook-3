@@ -29,6 +29,7 @@ public class Main {
                 System.out.println("ID: " + newEmployee.getEmployeeId() + " Name; " + newEmployee.getName() + " Pay: " + newEmployee.calculateGrossPay());
                 System.out.printf("ID: %d Name: %s Pay: %.2f", newEmployee.getEmployeeId(), newEmployee.getName(), newEmployee.calculateGrossPay());
 
+
             }
 
         } catch (Exception e) {
