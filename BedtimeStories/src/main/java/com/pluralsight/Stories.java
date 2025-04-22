@@ -33,7 +33,7 @@ public class Stories {
         FileInputStream fileStream = null;
 
         try{
-            fileStream = new FileInputStream("/c/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/goldilocks.txt");
+            fileStream = new FileInputStream("/c:/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/goldilocks.txt");
 
             Scanner readFile = new Scanner(fileStream);
 
@@ -54,7 +54,7 @@ public class Stories {
         FileInputStream fileStream = null;
 
         try{
-            fileStream = new FileInputStream("/c/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/hansel_and_gretel.txt");
+            fileStream = new FileInputStream("/c:/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/hansel_and_gretel.txt");
 
             Scanner readFile = new Scanner(fileStream);
 
@@ -75,7 +75,7 @@ public class Stories {
         FileInputStream fileStream = null;
 
         try{
-            fileStream = new FileInputStream("/c/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/mary_had_a_little_lamb.txt");
+            fileStream = new FileInputStream("/c:/Users/rsant/pluralsight/workbook-3/BedtimeStories/DataFiles/mary_had_a_little_lamb.txt");
 
             Scanner readFile = new Scanner(fileStream);
 
