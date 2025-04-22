@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 public class Employee {
+    //declare fields
     int employeeId;
     String name;
     double hoursWorked;

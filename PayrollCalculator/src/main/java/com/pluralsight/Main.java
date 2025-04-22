@@ -15,7 +15,7 @@ public class Main {
             int lineIndex = 0;
             while ((input = bufferedReader.readLine()) != null) {
                 String[] lineData = input.split("\\|");
-                System.out.println(lineData);
+                //System.out.println(lineData);
                 if (lineData[0].equals("id")) {
                     continue;
                 }
