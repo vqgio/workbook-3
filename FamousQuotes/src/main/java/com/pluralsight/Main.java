@@ -16,16 +16,17 @@ public class Main {
         "cesar",
         "leo"
         };
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Pick a number between 1-10 for the quote:");
-        int userChoice = scanner.nextInt();
-        System.out.println("selected quote: " + famousQuotes[userChoice - 1]);
-//        catch (IllegalArgumentException e) {
-//            System.out.println(e.getMessage());
-//        catch (Exception e) {
-//                System.out.println("ERROR");
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Pick a number between 1-10 for the quote:");
+            int userChoice = scanner.nextInt();
+            System.out.println("selected quote: " + famousQuotes[userChoice - 1]);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        } catch (Exception e) {
+                System.out.println("ERROR");
 //                Scanner.nextLine();
-//            }
+//
         }
     }
 }
