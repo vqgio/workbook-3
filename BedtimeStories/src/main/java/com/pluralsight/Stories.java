@@ -11,7 +11,7 @@ public class Stories {
         System.out.println("1. Goldilocks");
         System.out.println("2. Hansel and Gretel");
         System.out.println("3. Mary had a little lamb");
-        System.out.print("Pick one(1, 2, 3):");
+        System.out.print(" Please pick a story between 1, 2, 3: ");
 
         int choice = scanner.nextInt();
 
