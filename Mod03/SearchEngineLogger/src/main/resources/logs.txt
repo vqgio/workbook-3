@@ -1,0 +1,8 @@
+2025-04-23 13:53:23 launch
+2025-04-23 13:54:35 launch
+2025-04-23 13:54:39 search : who is kevin
+2025-04-23 13:54:45 exit
+2025-04-23 13:55:05 launch
+2025-04-23 13:55:10 search : who is john pork
+2025-04-23 13:55:14 search : who is tim cheese
+2025-04-23 13:55:18 exit
