@@ -21,7 +21,5 @@ public class EngineLogger {
             }
         }
         scanner.close();
-
-
     }
 }
